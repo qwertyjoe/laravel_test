@@ -1,0 +1,129 @@
+.right_page_size{
+    width:300px;
+    height:calc(100vh - 100px);
+    position:fixed;right:0;top:0;
+}
+.bottom_list_size{
+    width:100%;
+    height:100px;
+    position:fixed;bottom:0;left:0;right:0;
+}
+.video_page_size{
+    width:calc(100% - 300px);
+    height: calc(100% - 100px);
+    position:relative;
+    top:0;
+    left:0;
+}
+.video_item_flex{
+    display:flex;
+    direction: row;
+    align-items: center;
+}
+.video_page_scroll{
+    overflow-y:auto;
+}
+.video_page_scroll::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+    background-color: transparent;
+}
+.margin_5{
+    margin:5px;
+}
+.div_size{
+    width:calc(100% - 1px - 10px);
+    height:calc(100% - 1px - 10px);
+    
+}
+.list_flex{
+    display: flex;
+    flex-direction: row;
+}
+.search_btn_size{
+    height:26px;
+    width:104px; 
+    margin-right:2px;
+    font-size:18px;
+}
+.search_input_size{
+    line-height:20px;
+    flex:1;
+}
+.search_flex{
+    width:500px;
+    display:flex;
+    align-items:center ;
+}
+.full_size{
+    height:100%;
+    width: 100%;
+}
+.btn_flex{
+    height: 50%;
+    margin:7px;
+}
+.btn_size{
+    width:100px;
+}
+.div_btn_flex{
+    display:flex;
+    flex:1;
+    width:100%;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: flex-end;
+    overflow:auto;
+}
+
+.div_btn_flex::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: transparent;
+}
+.div_btn_flex::-webkit-scrollbar-thumb {
+    background: #E8E8E8;
+  }
+
+@media(max-width:900px){
+    .right_page_small_size{
+        width:300px;
+        height:calc(100vh - 100px);
+        position:fixed;right:0;top:0;
+        display:none;
+    }
+    .video_page_small_size{
+        width:100%;
+        position:relative;
+        top:0;
+        left:0;
+        
+    }
+    .list_flex_small_size{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btn_flex_small_size{
+        height: 70%;
+    }
+    .div_btn_flex_small{
+        display:flex;
+        flex:1;
+        width:100%;
+        flex-wrap: nowrap;
+        flex-direction:row;
+        justify-content:flex-start;
+        align-items: flex-end;
+        overflow:auto;
+    }
+    
+  }
+  @media(max-width:500px){
+    .search_flex_small_size{
+        width:100%;
+        display:flex;
+        align-items:center ;
+    }
+  }
