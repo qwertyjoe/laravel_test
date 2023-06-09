@@ -1,6 +1,6 @@
 # 影片網站試作
 
-# 以PHP的laravel套件製作
+## 以PHP的laravel套件製作
 
 ![登入畫面](https://github.com/qwertyjoe/laravel_test/assets/43978015/aab3777d-840e-45c3-a629-9dd8c1d029e6)
 **以json檔為帳號紀錄的資料庫，具辨別是否有特殊字元、是否為空和使用者是否已登入之功能。**
